@@ -21,7 +21,7 @@ namespace MCSRLeaderboard
 
             var client = new SpeedrunComClient();
 
-            var game = client.Games.SearchGame(name: "Minecraft");
+            var game = client.Games.SearchGame(name: "Minecraft: Java Edition");
 
             MessageBox.Show("Las categorías de Minecraft que vicio me das son:");
 
